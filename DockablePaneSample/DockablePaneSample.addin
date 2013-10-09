@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DockablePaneSample</Text>
+    <Description>Some description for DockavlePaneSample</Description>
+    <Assembly>DockablePaneSample.dll</Assembly>
+    <FullClassName>DockablePaneSample.Command</FullClassName>
+    <ClientId>48fedf3c-1420-4265-b8cc-34bea51afbb0</ClientId>
+    <VendorId>ECODOMUS</VendorId>
+    <VendorDescription>http://ecodomus.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DockablePaneSample</Name>
+    <Assembly>DockablePaneSample.dll</Assembly>
+    <FullClassName>DockablePaneSample.App</FullClassName>
+    <ClientId>c108be72-3122-40f3-a28d-0bc878236d0e</ClientId>
+    <VendorId>ECODOMUS</VendorId>
+    <VendorDescription>http://ecodomus.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
